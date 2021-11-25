@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+.navbar-brand,
+.jumbotron h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    padding-top: 3rem;
+    color: #5a5a5a;
+}
+/*   
+.carousel {
+    margin-bottom: 4rem;
+} */
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+  
+.carousel-item {
+    height: 32rem;
+}
+
+.carousel-item > img { 
+    width: 100%;
+}
+
+.img-fluid{ 
+    object-fit: contain;
+}
+
+.btn-secondary {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 20px;
+}
+
+.img{
+  height: 450px;
+}
+
+.slide{
+  margin-bottom: 0px;
+}
+
+.footer{
+  color: aliceblue;
+  margin-bottom: 1px;
+  padding: 2vh 0;
+}
+
+  
+@media (min-width: 40em) {
+.carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+}
+
+.featurette-heading {
+      font-size: 50px;
+    }
+}
+  
+@media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+}
